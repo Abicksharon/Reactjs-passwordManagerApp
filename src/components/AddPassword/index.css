@@ -1,0 +1,174 @@
+@media (orientation: landscape) {
+  .cont1 {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+  }
+  .cont2 {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+    height: 100vh;
+    width: 60%;
+    padding: 20px 50px 0px 50px;
+  }
+  .logo-img {
+    height: 35px;
+    margin-bottom: 5px;
+  }
+  .cont3 {
+    background-color: #5763a5;
+    width: 100%;
+    height: 45vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .cont4 {
+    background-color: #454f84;
+    height: 99%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px 15px 0px 10px;
+  }
+  .addpass-head {
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+  }
+  .input-container {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    width: 95%;
+    border: solid #94a3b8 1px;
+    border-radius: 5px;
+  }
+  input {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+  }
+  .website-img {
+    height: 100%;
+    width: 32px;
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: solid #94a3b8 1px;
+  }
+  .btn-cont {
+    text-align: end;
+    margin-right: 5px;
+  }
+  .btn1 {
+    width: 65px;
+    height: 26px;
+    font-size: 12px;
+    background-color: #0b69ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pass-manager-cont {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) {
+  .cont1 {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
+    font-family: Roboto;
+    margin: 0px;
+  }
+  .cont2 {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+  }
+  .logo-img {
+    height: 35px;
+    margin: 5px 0px 0px 6px;
+  }
+  .cont3 {
+    background-color: #5763a5;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 35vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .cont4 {
+    background-color: rgba(69, 79, 132, 0.8);
+    height: 40%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px 15px 10px 10px;
+  }
+  .addpass-head {
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+  }
+  .input-container {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    width: 95%;
+    border: solid #94a3b8 1px;
+    border-radius: 5px;
+  }
+  input {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+  }
+  .website-img {
+    height: 100%;
+    width: 32px;
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: solid #94a3b8 1px;
+  }
+  .btn-cont {
+    text-align: end;
+    margin-right: 5px;
+  }
+  .btn1 {
+    width: 65px;
+    height: 26px;
+    font-size: 12px;
+    background-color: #0b69ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .portrait-display {
+    display: none;
+  }
+}

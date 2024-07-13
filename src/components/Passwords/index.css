@@ -1,0 +1,131 @@
+@media (orientation: landscape) {
+  li {
+    height: 62px;
+    min-width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: solid #94a3b8 1px;
+    padding: 12px 10px 12px 0px;
+    margin: 6px 6px 0px 0px;
+  }
+  .firstLetter {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .delete-cont {
+    width: 15%;
+    display: flex;
+    justify-content: end;
+  }
+  .delete-btn {
+    background-color: #5763a5;
+    cursor: pointer;
+    border: none;
+  }
+  .delete-img {
+    height: 18px;
+  }
+  .passworddetails-cont {
+    min-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .email-para {
+    margin: 0px;
+    font-size: 9px;
+  }
+  .name-para {
+    margin: 0px;
+    font-size: 9px;
+  }
+  .pass-para {
+    margin: 0px;
+    font-size: 9px;
+  }
+  .star-img {
+    height: 10px;
+    width: 80px;
+  }
+  .f-p-c {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (orientation: portrait) {
+  li {
+    height: 60px;
+    min-width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: solid #94a3b8 1px;
+    padding: 10px 6px 10px 0px;
+    margin: 6px 6px 0px 0px;
+  }
+  .firstLetter {
+    width: 28px;
+    height: 28px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 13px;
+  }
+  .delete-cont {
+    width: 10%;
+    display: flex;
+    justify-content: end;
+  }
+  .delete-btn {
+    background-color: #5763a5;
+    cursor: pointer;
+    border: none;
+  }
+  .delete-img {
+    height: 18px;
+  }
+  .passworddetails-cont {
+    min-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .email-para {
+    margin: 0px;
+    font-size: 9px;
+  }
+  .name-para {
+    margin: 0px;
+    font-size: 9px;
+  }
+  .pass-para {
+    margin: 0px;
+    font-size: 9px;
+  }
+  .star-img {
+    height: 10px;
+    width: 50px;
+  }
+  .f-p-c {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,212 @@
+@media (orientation: landscape) {
+  .second-cont {
+    background-color: #5763a5;
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+
+    padding: 15px 30px 0px 30px;
+    margin-top: 10px;
+  }
+  .s-cont1 {
+    display: flex;
+    height: 32px;
+    width: 100%;
+    justify-content: space-between;
+
+    border-bottom: solid #94a3b8 1px;
+  }
+  .s-para-cont {
+    display: flex;
+
+    width: 40%;
+  }
+
+  .s-head {
+    font-size: 13px;
+
+    color: white;
+    margin-top: 0px;
+  }
+  .s-para {
+    margin-top: 0px;
+    font-size: 9px;
+    color: white;
+    margin-left: 5px;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding: 3px;
+    height: 12px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .s-input-cont {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+    border: solid #94a3b8 1px;
+    border-radius: 5px;
+  }
+  input {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    font-size: 10px;
+  }
+  .s-img-cont {
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid #94a3b8 1px;
+    height: 100%;
+    width: 35px;
+  }
+  .search-img {
+    height: 15px;
+  }
+
+  .passlist-cont {
+    max-height: 70%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+}
+
+@media (orientation: portrait) {
+  .second-cont {
+    background-color: #5763a5;
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+
+    padding: 15px 30px 0px 30px;
+    margin-top: 10px;
+  }
+  .s-cont1 {
+    display: flex;
+    height: 34px;
+    width: 100%;
+    justify-content: space-between;
+
+    border-bottom: solid #94a3b8 1px;
+  }
+  .s-para-cont {
+    display: flex;
+
+    width: 40%;
+  }
+
+  .s-head {
+    font-size: 13px;
+
+    color: white;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .s-para {
+    margin-top: 0px;
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding: 3px;
+    height: 13px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .s-input-cont {
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+    border: solid #94a3b8 1px;
+    border-radius: 5px;
+  }
+  input {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    font-size: 10px;
+  }
+  .s-img-cont {
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid #94a3b8 1px;
+    height: 100%;
+    width: 35px;
+  }
+  .search-img {
+    height: 15px;
+  }
+  .passlist-cont {
+    max-height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+}
+
+.checkbox-cont {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+.checkbox {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+.label-text {
+  color: white;
+  font-size: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.nopass-cont {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nopass-img {
+  height: 50%;
+}
+.nopass-text {
+  color: white;
+  font-size: 14px;
+}
